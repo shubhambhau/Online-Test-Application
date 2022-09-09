@@ -1,0 +1,29 @@
+.card{
+    max-width:800px;
+    margin:0 auto;
+    padding:10px;
+}
+li{
+    list-style-type:none;
+    cursor:pointer;
+    margin:10px 0;
+
+}
+li .card:hover{
+ border:1px solid rgb(99, 136, 51);
+ background-color: lightcyan;
+}
+ol{
+    padding:0;
+}
+.nameColor{
+    padding:10px;
+    color:rgb(65, 40, 3);
+    background-color: rgb(118, 230, 118);
+    border-radius:20px;
+}
+.nameColor:hover{
+    color:black;
+    background-color: bisque;
+
+}
